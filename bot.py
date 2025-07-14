@@ -3,13 +3,20 @@
 #BOT_TOKEN = '7702424432:AAGqdZn0OkH0BQVotnbpFp19WHtMBNQqfZ0' #ТОКЕН МОЕГО КОДА
 #TEXT = 'Ура! Классный апдейт!'
 #MAX_COUNTER = 100
-#print(message.from_user.first_name, message.from_user.last_name) 
+#print(message.from_user.first_name, message.from_user.last_name)
 
+import functions
+from data import my_dict
+import classes
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
 
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import Command, CommandStart
 from aiogram.types import Message
 import random
+
 
 # Вместо BOT TOKEN HERE нужно вставить токен вашего бота,
 # полученный у @BotFather
