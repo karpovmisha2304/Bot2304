@@ -1,6 +1,5 @@
 
 #API_URL = 'https://api.telegram.org/bot'                     #АПИШНИК ТЕЛЕГРАМ БОТА
-#BOT_TOKEN = '7702424432:AAGqdZn0OkH0BQVotnbpFp19WHtMBNQqfZ0' #ТОКЕН МОЕГО КОДА
 #TEXT = 'Ура! Классный апдейт!'
 #MAX_COUNTER = 100
 #print(message.from_user.first_name, message.from_user.last_name)
@@ -20,7 +19,6 @@ import random
 
 # Вместо BOT TOKEN HERE нужно вставить токен вашего бота,
 # полученный у @BotFather
-BOT_TOKEN = '7702424432:AAGqdZn0OkH0BQVotnbpFp19WHtMBNQqfZ0'
 
 # Создаем объекты бота и диспетчера
 bot = Bot(BOT_TOKEN)
